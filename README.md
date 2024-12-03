@@ -25,8 +25,8 @@ A simple URL Shortener API built with Flask and MySQL that allows users to short
 
 1. **Clone the Repository**
     ```bash
-    git clone <your-repo-url>
-    cd url-shortener
+    git clone https://github.com/AshwinSaklecha/urlShortener.git
+    cd urlShortener
     ```
 
 2. **Create Virtual Environment**
@@ -81,7 +81,7 @@ A simple URL Shortener API built with Flask and MySQL that allows users to short
     ```json
     {
         "long_url": "https://example.com/very/long/url",
-        "custom_code": "mycode" // Optional
+        "custom_code": "mycode"
     }
     ```
 - **Response:**
